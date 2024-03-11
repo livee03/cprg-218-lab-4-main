@@ -24,7 +24,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .hero-content h1 {
   font-size: 3em;
@@ -51,7 +51,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: white;
+color: rgb(130, 42, 42);
 }
 .content-section {
   padding: 50px 0;
@@ -80,14 +80,14 @@ color: white;
 }
 
 .accordion-container {
-  background-color: #7b2108;
-  color: #fff;
+  background-color: #3a5f8f;
+  color: #ffffff;
   height: 600px;
 }
 
 .accordion {
-  background-color: #0f4a12;
-  color: #000000;
+  background-color: #3a5f8f;
+  color: #ffffff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -105,20 +105,20 @@ color: white;
 
 .panel {
   padding: 0 18px;
-  background-color: rgb(100, 9, 9);
+  background-color: rgb(85, 9, 100);
   display: none;
   overflow: hidden;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #3b1212;
+  background-color: #755f8e;
 }
 
 
 .panel {
   padding: 0 18px;
-  background-color: rgb(71, 74, 26);
+  background-color: rgb(66, 33, 76);
   display: none;
   overflow: hidden;
 }
